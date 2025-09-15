@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Currículo - Datos Generales</title>
+  </head>
+  <body>
+    <header>
+      <h1>Currículo - Edward Esteves</h1>
+      <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="biografia.html">Biografía</a> |
+        <a href="curriculo.html">Datos Personales</a> |
+        <a href="tema.html">Tema Libre</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="datos-generales">
+        <h2>Datos Generales</h2>
+
+        <form id="form-curriculo" method="post" action="#" autocomplete="on">
+          <fieldset>
+            <legend>Información personal</legend>
+
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+            <label for="apellido">Apellido:</label><br />
+            <input type="text" id="apellido" name="apellido" required /><br /><br />
+
+            <label for="cedula">Cédula:</label><br />
+            <input
+              type="text"
+              id="cedula"
+              name="cedula"
+              placeholder="123-4567890-1"
+              required
+            /><br /><br />
+
+            <label for="telefono">Teléfono:</label><br />
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="+507 6XXXXXXX"
+              required
+            /><br /><br />
+
+            <label for="fecha_nac">Fecha de nacimiento:</label><br />
+            <input type="date" id="fecha_nac" name="fecha_nac" required /><br /><br />
+
+            <label for="sexo">Sexo:</label><br />
+            <select id="sexo" name="sexo" required>
+              <option value="">-- Seleccione --</option>
+              <option value="masculino">Masculino</option>
+              <option value="femenino">Femenino</option>
+              <option value="otro">Otro</option>
+              <option value="prefiero_no_decir">Prefiero no decir</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Dirección</legend>
+            <label for="direccion">Dirección:</label><br />
+            <textarea id="direccion" name="direccion" rows="3" cols="40" required></textarea><br /><br />
+
+            <label for="corregimiento">Corregimiento:</label><br />
+            <input type="text" id="corregimiento" name="corregimiento" required /><br /><br />
+
+            <label for="provincia">Provincia:</label><br />
+            <input type="text" id="provincia" name="provincia" required /><br /><br />
+
+            <label for="pais">País:</label><br />
+            <input type="text" id="pais" name="pais" value="Panamá" required /><br /><br />
+          </fieldset>
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Borrar</button>
+        </form>
+
+
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Edward Esteves - Ingeniería Web</p>
+    </footer>
+  </body>
+</html>
