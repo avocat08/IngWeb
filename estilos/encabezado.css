@@ -1,0 +1,25 @@
+/* estilos/encabezado.css */
+
+header {
+  background: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
